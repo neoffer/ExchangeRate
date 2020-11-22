@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExchangeRate.Infrastructure\ExchangeRate.Infrastructure.csproj" />
+    <ProjectReference Include="..\ExchangeRate.Model\ExchangeRate.Model.csproj" />
+    <ProjectReference Include="..\ExchangeRate.Service\ExchangeRate.Service.csproj" />
+    <ProjectReference Include="..\ExchangeRate.Data\ExchangeRate.Data.csproj" />
+  </ItemGroup>
+</Project>
